@@ -21,7 +21,7 @@ app.on('ready', function() {
 	
   mainWindow.setMenu(null);
   mainWindow.loadURL('http://brain.fm');
-  //mainWindow.webContents.openDevTools();
+  mainWindow.webContents.openDevTools();
 
   mainWindow.on('app-command', function(e, cmd) {
     if (cmd === 'browser-backward' && mainWindow.webContents.canGoBack()) {
@@ -51,7 +51,6 @@ function skip()
 }
 
 
-var paused = false;
 /*
 * TODO
 * - Actually pause and resume it instead of the current function which is arbitrarily stopping it..
@@ -63,16 +62,15 @@ function playPause()
 {
 	if (mainWindow == null) return;
 
-	if (paused)
-	{
-		mainWindow.webContents.executeJavaScript('$("#jquery_jplayer").jPlayer("play", 0);$("#play_button").removeClass("tc_pause").addClass("tc_play");');
-	}
-	else
-	{
-		mainWindow.webContents.executeJavaScript('$("#jquery_jplayer").jPlayer("play", 1);$("#play_button").removeClass("tc_play").addClass("tc_pause");');
-	}
-
-	paused = !paused;
+	mainWindow.webContents.executeJavaScript('' +
+		'if ($("#play_button").hasClass("tc_pause")) {' +
+			'$("#jquery_jplayer").jPlayer("play", 0);' +
+			'$("#play_button").removeClass("tc_pause").addClass("tc_play");' +
+		'} else {' +
+			'$("#jquery_jplayer").jPlayer("play", 1);' +
+			'$("#play_button").removeClass("tc_play").addClass("tc_pause");' +
+		'}' +
+		'');
 }
 
 
