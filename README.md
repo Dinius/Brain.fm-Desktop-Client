@@ -4,7 +4,7 @@ http://brain.fm Desktop client
 Quickly thrown together, functional. Somewhat.
 
 
-Binaries if lazy: https://goo.gl/eRvWVO
+Binaries if lazy: http://bit.ly/1OjOo5n
 
 
 
