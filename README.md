@@ -11,7 +11,9 @@ Runs in a standalone window with keyboard media button control for play/pause.
 
 #### Binaries
 Windows:   http://bit.ly/1NgwyiI
+
 Linux x86: http://bit.ly/1Htkomm
+
 Linux x64: http://bit.ly/1IeYeEw
 
 
