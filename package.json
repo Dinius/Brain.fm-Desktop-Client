@@ -1,0 +1,23 @@
+{
+  "name": "brainfm-desktop",
+  
+  "version": "1.0.0",
+  "description": "brain.fm desktop client",
+  
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  
+  "author": "Dinius",
+  "license": "MIT",
+  "homepage": "https://brain.fm",
+  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atom/electron-quick-start.git"
+  },
+  "devDependencies": {
+    "electron-prebuilt": "^0.35.0"
+  }
+}
