@@ -21,7 +21,7 @@ app.on('ready', function() {
 	
   mainWindow.setMenu(null);
   mainWindow.loadURL('http://brain.fm');
-  mainWindow.webContents.openDevTools();
+  //mainWindow.webContents.openDevTools();
 
   mainWindow.on('app-command', function(e, cmd) {
     if (cmd === 'browser-backward' && mainWindow.webContents.canGoBack()) {
