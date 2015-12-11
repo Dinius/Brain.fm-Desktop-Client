@@ -1,7 +1,6 @@
 var app 						= require('app'),
 		browserWindow 	= require('browser-window'),
 		globalShortcut	= require('global-shortcut'),
-		jQuery					= require('jquery'),
 		mainWindow 			= null;
 
 app.on('window-all-closed', function() {
