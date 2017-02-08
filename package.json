@@ -19,6 +19,6 @@
     "url": "git+https://github.com/atom/electron-quick-start.git"
   },
   "devDependencies": {
-    "electron-prebuilt": "0.35.0"
+    "electron-prebuilt": "0.35.1"
   }
 }
