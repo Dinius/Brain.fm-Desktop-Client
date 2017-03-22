@@ -1,7 +1,5 @@
-var app            = require('app'),
-		browserWindow  = require('browser-window'),
-		globalShortcut = require('global-shortcut'),
-		mainWindow     = null;
+const {app, BrowserWindow, globalShortcut} = require('electron')
+var   mainWindow     = null;
 
 app.on('window-all-closed', function () {
 	if (process.platform != 'darwin') {
@@ -10,7 +8,7 @@ app.on('window-all-closed', function () {
 });
 
 app.on('ready', function () {
-	mainWindow = new browserWindow({
+	mainWindow = new BrowserWindow({
 		width             : 1280,
 		height            : 720,
 		'title'           : 'Brain.fm',
