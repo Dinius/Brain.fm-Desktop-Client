@@ -1,22 +1,22 @@
 {
   "name": "brainfm-desktop",
-  
   "version": "1.1.0",
   "description": "brain.fm desktop client",
-  
   "main": "main.js",
-  
   "scripts": {
     "start": "electron main.js",
-    "package": "electron-packager . brainfm --all --out=./out --overwrite --icon=./brainfm.ico"
+    "package": "electron-packager . brainfm --all --out=./out --overwrite --icon=./brainfm.ico",
+    "package:mac": "electron-packager . brainfm --mac --out=./out --overwrite --icon=./brainfm.ico"
   },
-  
   "author": "Dinius",
   "license": "MIT",
   "homepage": "https://brain.fm",
-  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/atom/electron-quick-start.git"
+  },
+  "dependencies": {
+    "electron": "1.7.9",
+    "electron-packager": "10.1.0"
   }
 }
