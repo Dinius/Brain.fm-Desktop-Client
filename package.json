@@ -1,12 +1,12 @@
 {
   "name": "brainfm-desktop",
-  "version": "1.1.0",
+  "version": "0.1.1",
   "description": "brain.fm desktop client",
   "main": "main.js",
   "scripts": {
     "start": "electron main.js",
     "package": "electron-packager . brainfm --all --out=./out --overwrite --icon=./brainfm.ico",
-    "package:mac": "electron-packager . brainfm --mac --out=./out --overwrite --icon=./brainfm.ico"
+    "package:mac": "electron-packager . Brain.fm --mac --out=./out --overwrite --icon=./brainfm.ico"
   },
   "author": "Dinius",
   "license": "MIT",
