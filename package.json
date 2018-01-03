@@ -1,6 +1,6 @@
 {
   "name": "brainfm-desktop",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "brain.fm desktop client",
   "main": "main.js",
   "scripts": {
