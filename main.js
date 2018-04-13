@@ -44,6 +44,7 @@ app.on('ready', function() {
     submenu: [
       { label: "About Application", selector: "orderFrontStandardAboutPanel:" },
       { type: "separator" },
+      { role: 'minimize' },
       { label: "Quit", accelerator: "Command+Q", click: function () { app.quit(); } }
     ]
   }, {
