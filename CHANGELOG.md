@@ -6,6 +6,20 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+<<<<<<< HEAD
+## 0.1.5 - 2018-04-15
+
+### Added
+
+- *Hide* window (macOS)
+
+### Changed
+
+- Don't show the menu on Windows
+- Minor cleanup
+
+=======
+>>>>>>> 5481ebb24f78db7e331ca0a264257958b85f28a0
 ## 0.1.4 - 2018-04-14
 
 ### Added
