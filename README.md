@@ -7,4 +7,4 @@ Runs in a standalone window with keyboard media button control for play/pause.
 
 ## Download
 
-You can download the latest binaries for macOS and Windows [here](https://github.com/Dinius/Brain.fm-Desktop-Client/releases/latest).
+You can download the latest binaries for macOS, Windows, and Linux [here](https://github.com/Dinius/Brain.fm-Desktop-Client/releases/latest).
