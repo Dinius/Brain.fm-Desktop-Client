@@ -1,10 +1,6 @@
 {
   "name": "brainfm-desktop",
-<<<<<<< HEAD
   "version": "0.1.5",
-=======
-  "version": "0.1.4",
->>>>>>> 5481ebb24f78db7e331ca0a264257958b85f28a0
   "description": "brain.fm desktop client",
   "main": "main.js",
   "scripts": {
@@ -20,7 +16,7 @@
     "url": "git+https://github.com/atom/electron-quick-start.git"
   },
   "dependencies": {
-    "electron": "1.7.9",
-    "electron-packager": "10.1.0"
+    "electron": "^3.0.5",
+    "electron-packager": "^12.1.0"
   }
 }
