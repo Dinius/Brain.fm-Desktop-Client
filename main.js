@@ -45,7 +45,7 @@ function skip() {
     return;
   }
 
-  mainWindow.webContents.executeJavaScript('document.getElementsByClassName("modules-music-player-css-Skip__skip___iZcPm")[0].click()');
+  mainWindow.webContents.executeJavaScript('document.getElementsByClassName("Skip__skip___yeyZ-")[0].click()');
 }
 
 function playPause() {
@@ -53,7 +53,7 @@ function playPause() {
     return;
   }
 
-  mainWindow.webContents.executeJavaScript('document.getElementsByClassName("modules-music-player-css-PlayControl__wrapper___2ROhW")[0].click()');
+  mainWindow.webContents.executeJavaScript('document.getElementsByClassName("PlayControl__wrapper___341vD")[0].click()');
 }
 
 function addMenu() {
