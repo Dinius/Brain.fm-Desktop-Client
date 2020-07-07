@@ -16,7 +16,7 @@
     "url": "git+https://github.com/atom/electron-quick-start.git"
   },
   "dependencies": {
-    "electron": "^8.0.1",
+    "electron": "^8.2.4",
     "electron-packager": "^14.2.1"
   }
 }
