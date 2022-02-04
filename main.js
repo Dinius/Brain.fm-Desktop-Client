@@ -18,7 +18,7 @@ app.on('ready', function() {
   });
 
   mainWindow.setMenu(null);
-  mainWindow.loadURL('http://www1.brain.fm/app/player');
+  mainWindow.loadURL('https://my.brain.fm/');
   //mainWindow.webContents.openDevTools();
 
   mainWindow.on('app-command', function(e, cmd) {
